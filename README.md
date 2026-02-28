@@ -12,7 +12,8 @@
 # Fonctionnalités
 Conformément au cahier des charges, l'application couvre les besoins suivants :  
 > # Gestion des Entités (CRUD)
-- Chambres : Ajout, modification, suppression (Numéro, Type, Prix/Nuit).  
+- Chambres : Ajout, modification, suppression (Numéro, Type, Prix/Nuit).
+
 - Clients : Gestion des informations personnelles (Nom, Ville, Téléphone).  
 - Réservations : Enregistrement des séjours (Chambre, Client, Dates).  
 > # Règles Métiers & Validations
@@ -33,7 +34,7 @@ Conformément au cahier des charges, l'application couvre les besoins suivants :
 - Authentification : Login administrateur avec mots de passe hachés (aucun stockage en clair).
 - Installateur Windows : Package complet généré avec Inno Setup (setup.exe).
 
-# Diagrammes de classes et du cas d'utilisattion
+> # Diagrammes de classes et du cas d'utilisattion
 
 
 
@@ -43,13 +44,12 @@ Conformément au cahier des charges, l'application couvre les besoins suivants :
 
 
 
+# Architecture du Projet
+Le projet suit une architecture en couches pour assurer la maintenabilité et la séparation des responsabilités 
+> <img width="1010" height="996" alt="image" src="https://github.com/user-attachments/assets/7be9de12-4bd3-4ebc-ae20-e6ecc78a5987" />
+> <img width="935" height="939" alt="image" src="https://github.com/user-attachments/assets/0867a821-07c7-4fc2-b110-2181d18fa0be" />
 
 
 
 
 
-
-
-
-##  Architecture du Projet
-Le projet suit une architecture en couches pour assurer la maintenabilité et la séparation des responsabilités
