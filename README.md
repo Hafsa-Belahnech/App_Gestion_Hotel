@@ -14,8 +14,17 @@ Conformément au cahier des charges, l'application couvre les besoins suivants :
 > # Gestion des Entités (CRUD)
 - Chambres : Ajout, modification, suppression (Numéro, Type, Prix/Nuit).
 
-- Clients : Gestion des informations personnelles (Nom, Ville, Téléphone).  
-- Réservations : Enregistrement des séjours (Chambre, Client, Dates).  
+https://github.com/user-attachments/assets/acd2293f-8514-4a98-932a-b492cdde4cb3
+
+- Clients : Gestion des informations personnelles (Nom, Ville, Téléphone).
+  
+https://github.com/user-attachments/assets/46ca02bd-e061-40b0-be80-419c135452b5
+  
+- Réservations : Enregistrement des séjours (Chambre, Client, Dates).
+
+https://github.com/user-attachments/assets/5802a95a-cd4b-4dfc-8da5-15d0a70fa7d4
+
+
 > # Règles Métiers & Validations
 - Prévention des chevauchements : Impossible de réserver une chambre déjà occupée sur la période sélectionnée.  
 - Recherche de disponibilité : Trouver les chambres libres entre deux dates données.  
