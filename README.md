@@ -56,8 +56,9 @@ Conformément au cahier des charges, l'application couvre les besoins suivants :
 
 # Architecture du Projet
 Le projet suit une architecture en couches pour assurer la maintenabilité et la séparation des responsabilités 
-> <img width="1010" height="996" alt="image" src="https://github.com/user-attachments/assets/7be9de12-4bd3-4ebc-ae20-e6ecc78a5987" />
-> <img width="935" height="939" alt="image" src="https://github.com/user-attachments/assets/0867a821-07c7-4fc2-b110-2181d18fa0be" />
+<img width="896" height="1200" alt="image" src="https://github.com/user-attachments/assets/72b49cc0-cf0d-4006-a1a6-4f131e0a30c5" />
+
+
 
 # Sécurité 
 - Utilisation de requêtes préparées (PreparedStatement) pour éviter les injections SQL
