@@ -82,13 +82,52 @@ Le projet suit une architecture en couches pour assurer la maintenabilité et la
  <img width="553" height="84" alt="image" src="https://github.com/user-attachments/assets/678a1690-08f3-456a-b01c-ee64273fbd0e" />
  <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/7147b4ce-ed3d-4243-9b0c-55d0f7744aa4" />
 
- > # Vidéo démonstrative
+ > # Vidéos démonstratives
   
 https://github.com/user-attachments/assets/8c35fa09-8b1e-4fe3-8b93-05e5cc53702a
 
 - Ajout/ Suppression / Mise à jour des chambres :
+
+https://github.com/user-attachments/assets/f2f5bc2e-50be-4868-88f2-7f1ef99a3739
+
+https://github.com/user-attachments/assets/a8807ce8-a7bc-4a7b-aeaa-8b2e4ee8a6b8
+
+https://github.com/user-attachments/assets/c1a1f8fe-8139-4a5f-9e8e-609d62ab0717
+
+
+
 - Ajout / Suppression / Mise à jour des clients :
-- Ajout / Suppression / Mise à jour des réservations :
+
+https://github.com/user-attachments/assets/8cf2ebe0-263c-43ff-98fd-0320ee7e223c
+
+https://github.com/user-attachments/assets/f7ef8d24-4d66-4436-ac92-c97bf85ad371
+
+https://github.com/user-attachments/assets/61ca3553-83ef-4074-bae8-49277178117e
+
+
+
+
+- Ajout / Confirmation / Mise à jour du statut des réservations :
+
+https://github.com/user-attachments/assets/a58fb687-e6d7-4603-9872-5c00810bd726
+
+<img width="1781" height="673" alt="image" src="https://github.com/user-attachments/assets/d422ef37-1ddb-4e66-924b-77b34c5b4ffc" />
+
+
+
+
+- Filtrage et recherche :
+
+https://github.com/user-attachments/assets/93ed5e48-ebb4-4afd-98bc-58389e13dbbd
+
+
+  
+- Statistiques et graphes :
+
+https://github.com/user-attachments/assets/428f07dc-31ed-46b0-9615-d07685dd7276
+
+> # Réalisé par :
+ > Hafsa Belahnech & Nessaiba Messaadiyene 
 
 
 
