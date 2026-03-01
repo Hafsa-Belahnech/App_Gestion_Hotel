@@ -64,7 +64,8 @@ Le projet suit une architecture en couches pour assurer la maintenabilité et la
 - Gestion des exceptions JDBC  
 - Messages d’erreur clairs pour l’utilisateur  
 - Gestion des mots de passe, hashage :
- <img width="1561" height="864" alt="image" src="https://github.com/user-attachments/assets/4277a6ee-a9a0-4a4f-a9cb-1baf8135f1cd" />
+ <img width="1365" height="423" alt="image" src="https://github.com/user-attachments/assets/9aae1b21-b20b-47b0-93c8-ddec7c2633c5" />
+
 
  # Captures d'écran : 
  - Inscription & Connexion pour l'utilisateur (admin, client, réceptioniste) avec code de vérification par email :
