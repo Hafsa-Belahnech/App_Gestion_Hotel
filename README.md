@@ -44,6 +44,8 @@ https://github.com/user-attachments/assets/5802a95a-cd4b-4dfc-8da5-15d0a70fa7d4
 > # Diagrammes de classes et du cas d'utilisattion
 
 <img width="979" height="394" alt="Capture d’écran 2026-02-28 223544" src="https://github.com/user-attachments/assets/4552f7c8-4e96-4fcc-b162-7870d1ead794" />
+<img width="1600" height="860" alt="Capture d’écran 2026-03-01 000649" src="https://github.com/user-attachments/assets/7ba2b1d6-2744-43cd-8529-abe278c2c7fe" />
+
 
 # Technologies utilisées
 > Ce projet a été développé en utilisant les technologies suivantes :
