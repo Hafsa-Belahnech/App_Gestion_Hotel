@@ -5,7 +5,6 @@
   > - Technologies Utilisées  
   > - Architecture du Projet  
   > - Sécurité  
-  > - Captures d'Écran  
   > - Auteurs  
 
 # Fonctionnalités
@@ -13,29 +12,29 @@ Conformément au cahier des charges, l'application couvre les besoins suivants :
 
 > # Gestion des Entités (CRUD)
 - Chambres : Ajout, modification, suppression (Numéro, Type, Prix/Nuit...)
-- Clients : Gestion des informations personnelles (Nom, Ville, Téléphone...)
-- Réservations : Enregistrement des séjours (Chambre, Client, DateArrivee...)
+- Clients : Gestion des informations personnelles (Nom, Ville, Téléphone...), ajout, suppression et modification
+- Réservations : Enregistrement des séjours (Chambre, Client, DateArrivee...), annulation et confirmation
 
 
 > # Règles Métiers & Validations
-- Prévention des chevauchements : Impossible de réserver une chambre déjà occupée sur la période sélectionnée.  
-- Recherche de disponibilité : Trouver les chambres libres entre deux dates données.  
-- Historique : Lister toutes les réservations d'un client spécifique.  
-- Validation des saisies : Champs obligatoires, formats de dates et numériques contrôlés.  
+- Prévention des chevauchements : Impossible de réserver une chambre déjà occupée sur la période sélectionnée    
+- Recherche de disponibilité : Trouver les chambres libres entre deux dates données    
+- Historique : Lister toutes les réservations d'un client spécifique    
+- Validation des saisies : Champs obligatoires, formats de dates et numériques contrôlés    
 > # Recherche & Filtrage
-- Filtrage des chambres par type (Single, Double, Suite...).  
-- Filtrage des réservations par période.  
-- Barre de recherche dynamique sur les clients et les chambres.  
+- Filtrage des chambres par type (Single, Double, Suite...)   
+- Filtrage des réservations par période   
+- Barre de recherche dynamique sur les clients et les chambres    
 > # Statistiques & Graphiques
-- Intégration de JFreeChart.  
-- Graphique d'occupation : Taux d'occupation par mois (Jours réservés / Jours totaux).  
-- Requêtes SQL d'agrégation pour des données fiables.  
+- Intégration de JFreeChart   
+- Graphique d'occupation : Taux d'occupation par mois (Jours réservés / Jours totaux)  
+- Requêtes SQL d'agrégation pour des données fiables    
 
 > # Sécurité & Déploiement
 - Authentification : Login administrateur avec mots de passe hachés (aucun stockage en clair)
 - Installateur Windows : Package complet généré avec Inno Setup (setup.exe)
 
-> # Diagrammes de classes et du cas d'utilisattion
+> # Diagrammes de classes et de cas d'utilisattion
 
 <img width="979" height="394" alt="Capture d’écran 2026-02-28 223544" src="https://github.com/user-attachments/assets/4552f7c8-4e96-4fcc-b162-7870d1ead794" />
 <img width="1600" height="860" alt="Capture d’écran 2026-03-01 000649" src="https://github.com/user-attachments/assets/7ba2b1d6-2744-43cd-8529-abe278c2c7fe" />
@@ -64,63 +63,14 @@ Le projet suit une architecture en couches pour assurer la maintenabilité et la
 - Utilisation de requêtes préparées (PreparedStatement) pour éviter les injections SQL
 - Gestion des exceptions JDBC  
 - Messages d’erreur clairs pour l’utilisateur  
-- Gestion des mots de passe, hachage :
- <img width="1365" height="423" alt="image" src="https://github.com/user-attachments/assets/9aae1b21-b20b-47b0-93c8-ddec7c2633c5" />
-
-
- # Captures d'écran : 
- - Inscription & Connexion pour l'utilisateur (admin, client, réceptioniste) avec code de vérification par email :
- <img width="1407" height="643" alt="image" src="https://github.com/user-attachments/assets/4142c154-e7d2-471d-b574-e345d0f5c861" />
- <img width="549" height="114" alt="image" src="https://github.com/user-attachments/assets/403bde13-9143-4186-bceb-415f663970b6" />
- <img width="571" height="1280" alt="image" src="https://github.com/user-attachments/assets/d3660dd4-3b75-463f-af3f-e2966c896b6a" />
-
- <img width="729" height="811" alt="image" src="https://github.com/user-attachments/assets/cb064c1d-8906-4c3a-b096-873c42b748f6" />
- <img width="553" height="84" alt="image" src="https://github.com/user-attachments/assets/678a1690-08f3-456a-b01c-ee64273fbd0e" />
- <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/7147b4ce-ed3d-4243-9b0c-55d0f7744aa4" />
-
- > # Vidéos démonstratives
-  
-https://github.com/user-attachments/assets/8c35fa09-8b1e-4fe3-8b93-05e5cc53702a
-
-- Ajout/ Suppression / Mise à jour des chambres :
-
-https://github.com/user-attachments/assets/f2f5bc2e-50be-4868-88f2-7f1ef99a3739
-
-https://github.com/user-attachments/assets/a8807ce8-a7bc-4a7b-aeaa-8b2e4ee8a6b8
-
-https://github.com/user-attachments/assets/c1a1f8fe-8139-4a5f-9e8e-609d62ab0717
+- Gestion des mots de passe, hachage 
 
 
 
-- Ajout / Suppression / Mise à jour des clients :
+# Vidéo démo :
 
-https://github.com/user-attachments/assets/8cf2ebe0-263c-43ff-98fd-0320ee7e223c
+https://github.com/user-attachments/assets/7bc4fbf9-2790-4f0b-b0c3-13dade2ecc62
 
-https://github.com/user-attachments/assets/f7ef8d24-4d66-4436-ac92-c97bf85ad371
-
-https://github.com/user-attachments/assets/61ca3553-83ef-4074-bae8-49277178117e
-
-
-
-
-- Ajout / Confirmation / Mise à jour du statut des réservations :
-
-https://github.com/user-attachments/assets/a58fb687-e6d7-4603-9872-5c00810bd726
-
-<img width="1781" height="673" alt="image" src="https://github.com/user-attachments/assets/d422ef37-1ddb-4e66-924b-77b34c5b4ffc" />
-
-
-
-
-- Filtrage et recherche :
-
-https://github.com/user-attachments/assets/93ed5e48-ebb4-4afd-98bc-58389e13dbbd
-
-
-  
-- Statistiques et graphes :
-
-https://github.com/user-attachments/assets/428f07dc-31ed-46b0-9615-d07685dd7276
 
 > # Réalisé par :
 > # Hafsa Belahnech & Nessaiba Messaadiyene 
