@@ -63,7 +63,7 @@ Le projet suit une architecture en couches pour assurer la maintenabilité et la
 - Utilisation de requêtes préparées (PreparedStatement) pour éviter les injections SQL
 - Gestion des exceptions JDBC  
 - Messages d’erreur clairs pour l’utilisateur  
-- Gestion des mots de passe, hashage :
+- Gestion des mots de passe, hachage :
  <img width="1365" height="423" alt="image" src="https://github.com/user-attachments/assets/9aae1b21-b20b-47b0-93c8-ddec7c2633c5" />
 
 
