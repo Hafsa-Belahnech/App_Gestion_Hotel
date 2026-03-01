@@ -7,20 +7,14 @@
   > - Sécurité  
   > - Captures d'Écran  
   > - Auteurs  
+
 # Fonctionnalités
 Conformément au cahier des charges, l'application couvre les besoins suivants :  
+
 > # Gestion des Entités (CRUD)
 - Chambres : Ajout, modification, suppression (Numéro, Type, Prix/Nuit...)
-
-https://github.com/user-attachments/assets/acd2293f-8514-4a98-932a-b492cdde4cb3
-
 - Clients : Gestion des informations personnelles (Nom, Ville, Téléphone...)
-  
-https://github.com/user-attachments/assets/46ca02bd-e061-40b0-be80-419c135452b5
-  
 - Réservations : Enregistrement des séjours (Chambre, Client, DateArrivee...)
-
-https://github.com/user-attachments/assets/5802a95a-cd4b-4dfc-8da5-15d0a70fa7d4
 
 
 > # Règles Métiers & Validations
@@ -130,16 +124,6 @@ https://github.com/user-attachments/assets/428f07dc-31ed-46b0-9615-d07685dd7276
  > Hafsa Belahnech & Nessaiba Messaadiyene 
 
 
-
-
-
-
-
-
-
-
- 
- 
 
 
 
