@@ -58,20 +58,9 @@ CREATE TABLE `clients` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
-
---
--- Structure de la table `paiements`
 --
 
-CREATE TABLE `paiements` (
-  `id` int(11) NOT NULL,
-  `id_reservation` int(11) NOT NULL,
-  `montant` decimal(10,2) NOT NULL,
-  `methode_paiement` enum('especes','carte','virement','cheque') NOT NULL,
-  `date_paiement` timestamp NOT NULL DEFAULT current_timestamp(),
-  `statut` enum('paye','en_attente','rembourse') DEFAULT 'en_attente',
-  `reference_transaction` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 
 -- --------------------------------------------------------
 
@@ -146,12 +135,6 @@ ALTER TABLE `clients`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `email` (`email`);
 
---
--- Index pour la table `paiements`
---
-ALTER TABLE `paiements`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `id_reservation` (`id_reservation`);
 
 --
 -- Index pour la table `reservations`
@@ -190,11 +173,6 @@ ALTER TABLE `chambres`
 ALTER TABLE `clients`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
---
--- AUTO_INCREMENT pour la table `paiements`
---
-ALTER TABLE `paiements`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `reservations`
@@ -219,12 +197,7 @@ ALTER TABLE `verification_codes`
 --
 
 --
--- Contraintes pour la table `paiements`
---
-ALTER TABLE `paiements`
-  ADD CONSTRAINT `paiements_ibfk_1` FOREIGN KEY (`id_reservation`) REFERENCES `reservations` (`id`) ON DELETE CASCADE;
 
---
 -- Contraintes pour la table `reservations`
 --
 ALTER TABLE `reservations`
